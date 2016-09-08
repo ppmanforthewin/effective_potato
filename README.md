@@ -1,8 +1,8 @@
 # An easy to use dictionary interface, powered by Wiktionary.
 
-## Credits:
+## Credits
 
-**Theme:** 
+**Theme** 
 	[Eventually by HTML5 Up](https://html5up.net/eventually)
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 	
