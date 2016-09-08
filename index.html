@@ -2,18 +2,17 @@
 <html>
 <body>
 
-<input type="text" id="q" />
-<input type="button" id="submit" value="submit" />
-
 <script>
-$(function () {
-    $('#submit').click(function() {
-        var url = "http://www.google.com/search?q=";
-        url += $('#q').val();
-        window.location = url;
-    });
-});
+function process()
+{
+var url="https://en.wiktionary.org/wiki/" + document.getElementById("url").value; 
+location.href=url;
+return false;
+}
 </script>
+<form onSubmit="return process();">
+URL: <input type="text" name="url" id="url"> <input type="submit" value="go">
+</form>
 
 </body>
 </html>
