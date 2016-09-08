@@ -2,9 +2,11 @@
 
 ## Credits
 
-**Theme** 
-	[Eventually by HTML5 Up](https://html5up.net/eventually)
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+**Compiled by** [Thayer Labs](http://thayerlabs.org)
+
+**Search function JS** Original source provided by [Chris Clower on Stack Overflow](http://stackoverflow.com/a/11811847), modified by [Thayer Labs](http://thayerlabs.org)
+
+**Theme** [Eventually by HTML5 Up](https://html5up.net/eventually). Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 	
 **Demo Images** [Unsplash](https://unsplash.com)
 	
