@@ -1,24 +1,12 @@
 <!doctype HTML>
 <html>
 <body>
-
-<script>
-function process()
-{
-var url="https://en.wiktionary.org/wiki/" + document.getElementById("url").value + "#Latin";
-location.href=url;
-return false;
-}
-</script>
-<form onSubmit="return process();">
-URL: <input type="text" name="url" id="url"> <input type="submit" value="go">
-</form>
-
+    
 <script type="text/javascript">
     function goToPage() {
         var page = document.getElementById('page').value;
         var page = document.getElementById('language').value;
-        window.location = "http://name.com/" + page + "#" + language;
+        window.location = "http://name.com/" + page + "#" + language ;
     }
 </script>
 <input type="text" id="page" />
