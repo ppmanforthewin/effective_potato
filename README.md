@@ -10,4 +10,4 @@
 	
 **Icons** [Font Awesome](https://fortawesome.github.com/Font-Awesome)
 	
-**Other** html5shiv.js (@afarkas @jdalton @jon_neal @rem), [Respond.js](https://j.mp/respondjs), [Skel](https://skel.io)
+**Other** html5shiv.js (@afarkas @jdalton @jon_neal @rem), [Respond.js](https://j.mp/respondjs), [Skel](http://skel.io)
