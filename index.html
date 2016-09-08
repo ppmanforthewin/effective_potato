@@ -17,6 +17,7 @@ URL: <input type="text" name="url" id="url"> <input type="submit" value="go">
 <script type="text/javascript">
     function goToPage() {
         var page = document.getElementById('page').value;
+        var page = document.getElementById('language').value;
         window.location = "http://name.com/" + page + "#" + language;
     }
 </script>
