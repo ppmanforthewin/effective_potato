@@ -14,17 +14,16 @@
 				your next big thing. Brought to you by <a href="http://html5up.net">HTML5 UP</a>.</p>
 			</header>
 			
-			<script type="text/javascript">
-				 function goToPage() {
-				 var word = document.getElementById('word').value;
-				 var language = document.getElementById('language').value;
-				 window.location = "http://name.com/" + page + "#" + value;
-    				 }
-			</script>
-			
-			<p>Word</p><input type="text" id="word" />
-			<p>Language</p><input type="text" id="language" />
-			<input type="submit" value="submit" onclick="goToPage();" />
+		<script type="text/javascript">
+    			function goToPage() {
+        			var word = document.getElementById('word').value;
+				var language = document.getElementById('language').value;
+        			window.location = "https://en.wiktionary.org/" + word + "#" + language
+    				}
+		</script>
+		<p>Word</p><input type="text" id="word" />
+		<p>Language</p><input type="text" id="language" />
+		<input type="submit" value="submit" onclick="goToPage();" />
 
 
 	</body>
