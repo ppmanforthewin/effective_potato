@@ -24,10 +24,17 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
-			</form>
+						
+		<script type="text/javascript">
+    			function goToPage() {
+        			var word = document.getElementById('word').value;
+				var language = document.getElementById('language').value;
+        			window.location = "https://en.wiktionary.org/" + word + "#" + language
+    				}
+		</script>
+		<p>Word</p><input type="text" id="word" />
+		<p>Language</p><input type="text" id="language" />
+		<input type="submit" value="submit" onclick="goToPage();" />
 
 		<!-- Footer -->
 			<footer id="footer">
