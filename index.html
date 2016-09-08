@@ -5,7 +5,7 @@
 <script>
 function process()
 {
-var url="https://en.wiktionary.org/wiki/" + document.getElementById("url").value; + "#Latin"
+var url="https://en.wiktionary.org/wiki/" + document.getElementById("url").value + "#Latin";
 location.href=url;
 return false;
 }
@@ -17,7 +17,7 @@ URL: <input type="text" name="url" id="url"> <input type="submit" value="go">
 <script type="text/javascript">
     function goToPage() {
         var page = document.getElementById('page').value;
-        window.location = "http://name.com/" + page; + "#Latin"
+        window.location = "http://name.com/" + page + "#Latin";
     }
 </script>
 <input type="text" id="page" />
