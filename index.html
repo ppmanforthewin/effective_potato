@@ -889,6 +889,23 @@ main();
 </body>
 </html>
 
+<script type="text/javascript" src="/assets/jsfooplot.js"></script>
+<script type="text/javascript">
+function main() {
+  // lots more features are available, this is just a "hello world"
+  // program.
+  myPlot = new Fooplot(document.getElementById('myPlot'));
+  myPlot.addPlot('sin(x)+0.5/x',FOOPLOT_TYPE_FUNCTION);
+  myPlot.addPlot('theta',FOOPLOT_TYPE_POLAR,{'color':'#ff0000'});
+  myPlot.reDraw();
+}
+</script>
+</head>
+
+<body onload="main();">
+
+<div id="myPlot" style="width:650px;height:400px;"></div>
+
 </body>  
 </html>  
 	</body>
