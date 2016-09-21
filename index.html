@@ -5,47 +5,42 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>effective-couscous</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
-
-		<!-- Header -->
-			<header id="header">
-				<h1>effective-couscous</h1>
-				<p>A powerful tool to define foreign and English words, powered by <a href="https://en.wiktionary.org">Wiktionary</a>.</p>
-			</header>
-
-		<!-- Signup Form -->
-						
-		<script type="text/javascript">
-    			function goToPage() {
-        			var word = document.getElementById('word').value;
-				var language = document.getElementById('language').value;
-        			window.location = "https://en.wiktionary.org/wiki/" + word + "#" + language
-    				}
-		</script>
-		<input type="text" id="word" /><p><strong>Word</strong> (must start with a lowercase letter)</p>
-		<input type="text" id="language" /><p><strong>Language</strong> (must start with an uppercase letter)</p>
-		<input type="submit" value="Define" onclick="goToPage();" />
-		<br>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="copyright">
-					<li>&copy; Thayer Labs.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
-
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+	<div class="box">
+<div class="display"><input type="text" readonly size="18" id="d"></div>
+<div class="keys">
+    <p><input type="button" class="button gray" 
+    value="mrc" onclick='c("Created....................")'>
+    <input type="button" class="button gray" 
+    value="m-" onclick='c("...............by............")'>
+    <input type="button" class="button gray" value="
+    m+" onclick='c(".....................Anoop")'>
+    <input type="button" class="button pink" 
+    value="/" onclick='v("/")'></p>
+    <p><input type="button" class="button black" 
+    value="7" onclick='v("7")'><input type="button" 
+    class="button black" value="8" onclick='v("8")'>
+    <input type="button" class="button black" value="9" 
+    onclick='v("9")'><input type="button" 
+    class="button pink" value="*" onclick='v("*")'></p>
+    <p><input type="button" class="button black" 
+    value="4" onclick='v("4")'><input type="button" 
+    class="button black" value="5" onclick='v("5")'>
+    <input type="button" class="button black" value="6" 
+    onclick='v("6")'><input type="button" 
+    class="button pink" value="-" onclick='v("-")'></p>
+    <p><input type="button" class="button black" 
+    value="1" onclick='v("1")'><input type="button" 
+    class="button black" value="2" onclick='v("2")'>
+    <input type="button" class="button black" value="3" 
+    onclick='v("3")'><input type="button" 
+    class="button pink" value="+" onclick='v("+")'></p>
+    <p><input type="button" class="button black" 
+    value="0" onclick='v("0")'><input type="button" 
+    class="button black" value="." onclick='v(".")'>
+    <input type="button" class="button black" value="C" 
+    onclick='c("")'><input type="button" 
+    class="button orange" value="=" onclick='e()'></p>
+</div>
+</div>
 	</body>
 </html>
