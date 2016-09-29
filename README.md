@@ -1,4 +1,4 @@
-# An easy to use dictionary interface, powered by Wiktionary.
+# A virtual workspace for all of your mathematical fancies.
 
 ## Credits
 
